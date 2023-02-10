@@ -67,7 +67,6 @@ class VKSteps {
         .then(resp => {
             assertionUtils.toEqual(StatusCodes.OK, resp.status, "Status code should be OK")
         })
-        //assertionUtils.toEqual(true,myprofilePage.checkPostExistence(this.post.message),"Post should not be displayed")
     }
 
     async editComment(){
